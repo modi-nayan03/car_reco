@@ -31,3 +31,6 @@ Follow these steps to set up the project on your local machine:
 git clone https://github.com/YOUR-USERNAME/car-recommendation.git
 cd car-recommendation
 
+### 🔹 Step 2: Install Dependencies  
+```bash
+pip install -r requirements.txt
