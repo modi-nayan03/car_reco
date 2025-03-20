@@ -31,8 +31,10 @@ Follow these steps to set up the project on your local machine:
 ```bash
 git clone https://github.com/YOUR-USERNAME/car-recommendation.git
 cd car-recommendation
-```  <!-- This closes the code block properly -->
 
-### 🔹 **Step 2: Install Dependencies**  
+
+### 🔹 **Step 2: Create a Virtual Environment (Recommended)**
 ```bash
-pip install -r requirements.txt
+python3 -m venv venv
+source venv/bin/activate  # Linux/macOS
+venv\Scripts\activate  # Windows
